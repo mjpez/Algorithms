@@ -38,6 +38,5 @@ const heapify = (array, index, heapSize) => {
     array[index] = array[largestValueIndex];
     array[largestValueIndex] = temp;
     heapify(array, largestValueIndex, heapSize);
-    snapshot(array);
   }
 }
